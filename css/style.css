@@ -1,8 +1,18 @@
+/********** FONTS **********/
+
+@import url('https://fonts.googleapis.com/css2?family=Amaranth:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Xanh+Mono:ital@0;1&display=swap');
+
+
 /********** Template CSS **********/
+
 :root {
-    --primary: #06BBCC;
+    --primary: #FE3FDD;
     --light: #F0FBFC;
-    --dark: #181d38;
+    --dark: #48256A;
+    font-family: "Xanh Mono", monospace;
+    font-weight: 400;
+    font-style: normal;
 }
 
 .fw-medium {
@@ -39,7 +49,7 @@
 
 /*** Button ***/
 .btn {
-    font-family: 'Nunito', sans-serif;
+    font-family: 'Amaranth', sans-serif;
     font-weight: 600;
     transition: .5s;
 }
@@ -80,7 +90,7 @@
 .navbar .dropdown-toggle::after {
     border: none;
     content: "\f107";
-    font-family: "Font Awesome 5 Free";
+    /* font-family: "Font Awesome 5 Free"; */
     font-weight: 900;
     vertical-align: middle;
     margin-left: 8px;
@@ -101,7 +111,7 @@
 }
 
 @media (max-width: 991.98px) {
-    .navbar-light .navbar-nav .nav-link  {
+    .navbar-light .navbar-nav .nav-link {
         margin-right: 0;
         padding: 10px 0;
     }
@@ -117,8 +127,8 @@
 }
 
 .navbar-light .navbar-nav .nav-link {
-    color: var(--dark);
-    font-weight: 500;
+    color: var(--light);
+    font-weight: 600;
 }
 
 .navbar-light.sticky-top {
@@ -157,7 +167,7 @@
         position: relative;
         min-height: 500px;
     }
-    
+
     .header-carousel .owl-carousel-item img {
         position: absolute;
         width: 100%;
@@ -207,7 +217,7 @@
     background: rgba(15, 23, 43, .7);
 }
 
-.breadcrumb-item + .breadcrumb-item::before {
+.breadcrumb-item+.breadcrumb-item::before {
     color: var(--light);
 }
 
@@ -254,7 +264,7 @@
 
 /*** Service ***/
 .service-item {
-    background: var(--light);
+    background: var(--dark);
     transition: .5s;
 }
 
@@ -318,6 +328,7 @@
 }
 
 @media (min-width: 768px) {
+
     .testimonial-carousel::before,
     .testimonial-carousel::after {
         width: 200px;
@@ -325,6 +336,7 @@
 }
 
 @media (min-width: 992px) {
+
     .testimonial-carousel::before,
     .testimonial-carousel::after {
         width: 300px;
@@ -401,7 +413,7 @@
 .footer .btn.btn-link::before {
     position: relative;
     content: "\f105";
-    font-family: "Font Awesome 5 Free";
+    /* font-family: "Font Awesome 5 Free"; */
     font-weight: 900;
     margin-right: 10px;
 }
