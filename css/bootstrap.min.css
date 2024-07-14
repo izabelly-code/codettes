@@ -13,7 +13,7 @@
     --bs-gray: #6c757d;
     --bs-gray-dark: #343a40;
     --bs-primary: #FE3FDD;
-    --bs-secondary: #6c757d;
+    --bs-secondary: #fff;
     --bs-success: #198754;
     --bs-info: red;
     --bs-warning: #ffc107;
@@ -4334,7 +4334,7 @@ fieldset:disabled .btn {
 
 .nav-link:hover,
 .nav-link:focus {
-    color: #0596a3
+    color: #FE3FDD
 }
 
 .nav-link.disabled {
@@ -4426,6 +4426,10 @@ fieldset:disabled .btn {
     justify-content: space-between;
     padding-top: .5rem;
     padding-bottom: .5rem
+}
+
+.navbar img {
+    size: 50px;
 }
 
 .navbar>.container,
@@ -8277,8 +8281,8 @@ fieldset:disabled .btn {
     word-break: break-word !important
 }
 .text-logo {
-    color: #FE3FDD;
-    font-weight: 600;
+    color: #fff;
+    font-weight: 800;
     font-family: "Xanh Mono", monospace;
     font-style: italic;
 }
@@ -8288,7 +8292,7 @@ fieldset:disabled .btn {
 }
 
 .text-secondary {
-    color: #6c757d !important
+    color: #fff !important
 }
 
 .text-success {
